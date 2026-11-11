@@ -1,0 +1,5 @@
+{
+  "voxcpm2_dir": "/path/to/voxcpm2-turkce-ses-tasarimi",
+  "voxcpm2_python": "/path/to/voxcpm2-turkce-ses-tasarimi/.venv/bin/python",
+  "whisper_model": "/path/to/ggml-large-v3-turbo.bin"
+}

@@ -1,0 +1,7 @@
+config.json
+.*-dub/
+*.m4a
+*.mp4
+*.wav
+__pycache__/
+.DS_Store
