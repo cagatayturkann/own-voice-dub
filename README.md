@@ -23,7 +23,7 @@ YouTube Studio → Diller → Dublaj'a yüklersin, izleyici ayarlardan dili seç
 ## Gerekenler
 
 - Apple Silicon Mac (M1 ve sonrası, 16 GB önerilir) ya da Nvidia ekran kartlı Windows / Linux PC
-- ~10 GB boş yer (modeller)
+- ~8 GB boş yer (modeller ve ortam)
 - ffmpeg, whisper.cpp (`whisper-cli`) ve Whisper `large-v3-turbo` modeli
 - [voxcpm2-turkce-ses-tasarimi](https://github.com/alexturkey/voxcpm2-turkce-ses-tasarimi) (VoxCPM2 + hazır anlatıcı sesleri)
 - Python 3.11 ortamında `chatterbox-tts` ve `demucs`
