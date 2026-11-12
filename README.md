@@ -73,8 +73,8 @@ python dub.py prepare video.mp4 --from tr
 
 ```
 video.dub.json'daki her cümleye "en" alanı ekle: o cümlenin İngilizcesi. Kurallar: her çeviri, söylendiğinde Türkçe
-cümleden uzun olmasın; kesme işareti kullanma ("it's" değil "it is"); bir cümleyi iki noktayla ya da noktalı virgülle
-bölme; marka adlarını olduğu gibi bırak. Sayılar İngilizcede rakamla kalabilir; başka bir dilde sayıyı yazıyla yaz.
+cümleden uzun olmasın; kesme işareti kullanma ("it's" değil "it is"); her Türkçe cümle tek bir İngilizce cümle olsun,
+ortasına nokta, soru işareti, iki nokta ya da noktalı virgül koyma; marka adlarını olduğu gibi bırak. Sayılar İngilizcede rakamla kalabilir; başka bir dilde sayıyı yazıyla yaz.
 ```
 
 Sonra:

@@ -9,8 +9,10 @@ dublajlarken ve 12 Kasım gecesi 4 ücretsiz modeli ElevenLabs'le yarıştırır
    cümlesinin 48'i ilk seferde geçti. Kontrol de yanılır: "Claude Code"u "cloud code" diye yazar. Son kulak senin.
 3. ✍ **Çeviri Türkçe cümleden uzun olmasın.** Dublaj Türkçe cümlenin yerine sığmak zorunda; yoksa söylenen ile görüntü kayar.
    Araç önce boşlukları kısaltır, sonra en çok %15 hızlandırır; yine sığmazsa söyler.
-4. ✍ **Cümleyi iki noktadan ya da noktalı virgülden bölme.** 1 saniyelik parça tek başına okununca hem anlatıcı hem
-   çeviren model bozuyor ("Bottom line." gibi). Araç yalnız nokta, soru ve ünlem işaretinden böler.
+4. ✍ **Cümleyi bölme: her Türkçe cümle tek bir İngilizce cümle.** 1 saniyelik parça tek başına okununca hem anlatıcı hem
+   çeviren model bozuyor ("Bottom line." gibi). Araç cümleyi nokta, soru ve ünlem işaretinden böler; bu yüzden ortaya
+   iki nokta ya da noktalı virgül de, kısaltırken soru işareti de koyma: "Question mark? Only answer." iki bozuk parça
+   çıktı, "A question mark means only answer." tek parça.
 5. ✍ **Kesme işareti ve tırnak yok.** Anlatıcı motoru kabul etmiyor: "it's" değil "it is".
 6. ✍ **İngilizce dışında sayıyı yazıyla yaz.** Anlatıcı rakam okumuyor; İngilizcede araç kendisi çeviriyor.
 7. **Müzik konuşmanın altında kısılsın.** Asıl videoda müzik sen konuşurken kısılıyorsa dublajda da öyle olmalı; araç
