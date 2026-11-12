@@ -6,6 +6,14 @@ YouTube Studio → Diller → Dublaj'a yüklersin, izleyici ayarlardan dili seç
 
 [English below](#english)
 
+> **Uyarı (13 Kasım 2026):** Demucs'un modelini indirdiği Meta sunucusunun sertifikası 11 Kasım'da doldu; ilk kurulumda
+> `certificate has expired` hatası alırsan modeli bu reponun Releases sayfasından al ([Demucs modeli inmezse](#demucs-modeli-inmezse)).
+> Model dosyasını Meta'nın kendi sunucusundan indirip SHA-256'sıyla değiştirmeden koyduk; Meta model için ayrı bir lisans yazmıyor,
+> Demucs reposu MIT. Sertifika yenilenince Meta'nın sunucusu yine kendiliğinden çalışır.
+> **Warning:** Meta's Demucs model server certificate expired on 11 Nov 2026. If the first run fails with `certificate has expired`,
+> take the unmodified model file from this repo's Releases and check its SHA-256 (see the English section).
+
+
 ## Nasıl çalışıyor
 
 1. **Cümleleri bulur** (Whisper): videonun her cümlesi, başladığı ve bittiği saniyeyle.
