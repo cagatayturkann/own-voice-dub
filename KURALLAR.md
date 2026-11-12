@@ -1,7 +1,7 @@
 # Öğrendiklerimiz
 
 Kendi kanalımda (@cagatayturkann) 4 Kasım 2026'dan beri 10 videoyu (8 Short, 2 uzun video) kendi sesimle İngilizceye
-dublajlarken çıkan kurallar. Araç bunların çoğunu kendisi uyguluyor; metni yazarken senin bilmen gerekenler işaretli (✍).
+dublajlarken ve 12 Kasım gecesi 4 ücretsiz modeli ElevenLabs'le yarıştırırken çıkan kurallar. Araç bunların çoğunu kendisi uyguluyor; metni yazarken senin bilmen gerekenler işaretli (✍).
 
 1. **Sesini doğrudan İngilizce okutma.** Sesini kopyalayan model İngilizceyi senin ağzınla okuyor: bir modelde Türk aksanı,
    ötekinde Rus aksanı çıktı. Önce ana dili o dil olan bir anlatıcı okusun, sonra ses senin sesine çevrilsin.
@@ -22,3 +22,8 @@ dublajlarken çıkan kurallar. Araç bunların çoğunu kendisi uyguluyor; metni
     değiştirince düzeldi. Bilmediğin bir dilde sonucu başka bir yapay zekâya dinletip çevirt (ben Gemini'ye dinlettim).
 11. **Bütün videoyu bir kerede okutmadan önce küçük dene.** Uzun bir okumada tek bir cümle bitmezse eski sürüm bütün işi
     durduruyordu; araç artık bitmeyen cümleyi tek başına yeniden dener, bitenleri tutar.
+12. **Sesini doğrudan klonlayan modeller bugün bu yolu geçemedi.** 12 Kasım gecesi aynı 40 saniyelik Short'u 4 ücretsiz
+    yolla ve ElevenLabs'le dublajladım: sesi videonun kendi Türkçesinden almak bazı kelimeleri yuttu; IndexTTS İngilizceyi
+    garip bir aksanla okudu; Qwen3-TTS ölçüde en çok yaklaştı (ses benzerliği 0,92, ElevenLabs 0,93) ama kulakta bu aracı
+    geçemedi; Chatterbox'ın çok dilli sürümü yavaş konuştu, 13 cümlenin 7'si yerine sığmadı. Tonlamada önde olan yalnız
+    paralı servis. Bu araç aksanı yerli anlatıcıdan, sesi senden alıyor; senin tonlaman taşınmıyor.
